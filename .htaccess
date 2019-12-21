@@ -8,7 +8,7 @@ RewriteRule ^.{0}$ src/
 RewriteRule ^login$ src/index.php
 # =============|MENU URL MANAGING|=============
 # Main HomePage When User Logs In
-# RewriteRule ^home$ src/view/mainindex.php?page=accueil
+RewriteRule ^home$ src/view/mainindex.php?page=accueil
 # OPERATION Managing Page
 RewriteRule ^operation$ src/view/mainindex.php?page=gOperation
 # New-Operation Page

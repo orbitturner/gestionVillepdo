@@ -10,8 +10,8 @@ if (isset($_POST['connexion']) && $_POST['username']!=NULL || $_POST['username']
 	$utilisateur = verifierConnexion($username,$pass);
 	if ($utilisateur != NULL) 
 	{
-		$_SESSION['profil']=$utilisateur['profil'];
-		$_SESSION['idUser'] = $utilisateur['id'];
+		$_SESSION['status']=$utilisateur['status'];
+		$_SESSION['idUser'] = $utilisateur['user_id'];
 		$_SESSION['nomComplet'] = $utilisateur['nom'].' '.$utilisateur['prenom'];
 		header("location:".getProjectRoot()."home");
 		

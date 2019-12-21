@@ -11,4 +11,8 @@ function getProjectPublic(){
     return "/lpgl_projects/gestionVillepdo/public/";
 }
 
+function getProjectTemplate(){
+    return "/lpgl_projects/gestionVillepdo/public/template/";
+}
+
 ?>

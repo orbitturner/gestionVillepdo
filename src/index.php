@@ -1,5 +1,12 @@
 <?php
-	require_once("routes/dir.php");
+	session_start();
+	require_once 'routes/dir.php';
+	if ($_SESSION!=null) {
+		header('location:'.getProjectRoot().'home');
+	}
+	if (isset($_GET['connexion']) && $_GET['connexion']==0){
+		echo "Login ou mot de passe incorrect !";
+	}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
