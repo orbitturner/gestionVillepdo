@@ -32,11 +32,10 @@
               <i class="fas fa-times"></i></button>
           </div>
         </div>
-        <!-- EMPLACEMENT DE LA CARTE -->
-        <div class="card-body">
-          Start creating your amazing application!
+        <!-- EMPLACEMENT DE LA CARTE DES VILLE -->
+        <div id="cityMap" class="card-body">
         </div>
-        <!-- /.card-body -->
+        <!-- /.card-body * ! CityMap-->
         <div class="card-footer">
           Powered by Google Maps
         </div>
