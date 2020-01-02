@@ -320,7 +320,7 @@ li a:hover {
         <div class="stars">
             <div class="custom-navbar">
                 <div class="brand-logo">
-                   <a href="<?= getProjectRoot() ?>home"><img src="<?= getProjectRoot() ?>public/template/img/logo.png" width="50px"></a>
+                   <a href="<?= getProjectRoot() ?>home"><img src="<?= getProjectRoot() ?>public/template/dist/img/appLogo.png" width="50px"></a>
                 </div>
                 <div class="navbar-links">
                     <ul>

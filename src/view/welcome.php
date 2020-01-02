@@ -509,7 +509,7 @@
                 <!-- /.row -->
               </div>
             </div>
-            <!-- /.card -->
+            <!-- /. END MAP card -->
 
             <!-- solid sales graph -->
             <div class="card bg-gradient-info">

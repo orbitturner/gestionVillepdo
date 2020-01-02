@@ -42,6 +42,8 @@
 <script src="<?= getProjectTemplate();?>plugins/summernote/summernote-bs4.min.js"></script>
 <!-- overlayScrollbars -->
 <script src="<?= getProjectTemplate();?>plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- PACE PROGRESS LOADING -->
+<script src="<?= getProjectTemplate();?>plugins/pace-progress/pace.min.js"></script>
 <!-- AdminLTE App -->
 <script src="<?= getProjectTemplate();?>dist/js/adminlte.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->

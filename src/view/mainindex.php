@@ -1,7 +1,7 @@
 <?php
 session_start();
+require_once '../routes/dir.php';
 if ($_SESSION!=null) {
-	require_once '../routes/dir.php';
 	include "navbar.php";
 	//afficher le contenu de la page
 	// echo '<div class="content">';
@@ -12,9 +12,9 @@ if ($_SESSION!=null) {
 				include 'welcome.php';
 			break;
 			
-			case 'gCompte':
+			case 'cityMap':
 				//contenue de la page gestion de compte
-				include 'maincompte.php';
+				include 'ville/map.php';
 			break;
 			
 			case 'gClient':

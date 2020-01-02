@@ -33,6 +33,8 @@
     <link rel="stylesheet" href="<?= getProjectTemplate();?>plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
     <!-- iCheck -->
     <link rel="stylesheet" href="<?= getProjectTemplate();?>plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Pace-Progress Loading -->
+    <link rel="stylesheet" href="<?= getProjectTemplate();?>plugins/pace-progress/themes/black/pace-theme-flat-top.css">
     <!-- JQVMap -->
     <link rel="stylesheet" href="<?= getProjectTemplate();?>plugins/jqvmap/jqvmap.min.css">
     <!-- Theme style -->
@@ -46,6 +48,6 @@
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
-<body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+<body class="hold-transition sidebar-mini pace-danger layout-fixed layout-navbar-fixed layout-footer-fixed">
 <!-- 🔳 GLOBAL WRAPPER 🔳 -->
 <div class="wrapper">

@@ -27,7 +27,7 @@ if (isset($_GET['logout']) && ($_GET['logout']==1))
  {
 	session_unset();
 	$_SESSION= array();
-	header("location:/Banque.sn/index.php?log=1");
+	header("location:".getProjectRoot()."login?log=1");
  }
 
 ?>
