@@ -21,7 +21,7 @@
         |Version         : v.0.1.1                                            |
         |Created         : 18-DECEMBER-2019                                   |
         |Last update     : 26-Sept-2019                                       |
-        |Partie          : HEADER                                             | 
+        |Partie          : LOGIN                                              | 
         |LANGAGE UTILISE : ANGLAIS - FRANCAIS                                 |
         +=====================================================================+
         Pour tout aide concernant le code source contactez-moi!!

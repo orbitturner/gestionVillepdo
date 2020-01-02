@@ -40,13 +40,13 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="<?= getProjectTemplate();?>dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="https://yt3.ggpht.com/a/AGF-l7-xQU2RTjk7NiKuZS2pCzx1YIrRyL9Fx7_8Mw=s900-c-k-c0xffffffff-no-rj-mo" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
-                  Brad Diesel
+                  Ngor SECK
                   <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
                 </h3>
-                <p class="text-sm">Call me whenever you can...</p>
+                <p class="text-sm">Samane MVC get an New cool update...</p>
                 <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
               </div>
             </div>
@@ -172,6 +172,7 @@
                 <a href="citymap" class="nav-link">
                   <i class="nav-icon fas fa-map-marked-alt"></i>
                   <p>Cartes des Villes</p>
+                  <span class="right badge badge-danger">New</span>
                 </a>
               </li>
             </ul>
@@ -182,8 +183,7 @@
               <i class="nav-icon fas fa-map-marker-alt"></i>
               <p>
                 Gestion des Villes
-                <span class="right badge badge-danger">New</span>
-                <!-- <i class="right fas fa-angle-left"></i> -->
+                <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">

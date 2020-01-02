@@ -47,6 +47,13 @@
     <link rel="stylesheet" href="<?= getProjectTemplate();?>plugins/summernote/summernote-bs4.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <style>
+       /* Set the size of the div element that contains the map */
+      #cityMap {
+        height: 600px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
 </head>
 <body class="hold-transition sidebar-mini pace-danger layout-fixed layout-navbar-fixed layout-footer-fixed">
 <!-- 🔳 GLOBAL WRAPPER 🔳 -->
