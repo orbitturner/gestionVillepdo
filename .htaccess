@@ -11,10 +11,10 @@ RewriteRule ^logout$ src/controller/userController.php?logout=1
 # =============|MENU URL MANAGING|=============
 # Main HomePage When User Logs In
 RewriteRule ^home$ src/view/mainindex.php?page=accueil
-# OPERATION Managing Page
+# Cities Map Page
 RewriteRule ^citymap$ src/view/mainindex.php?page=cityMap
 # New-Operation Page
-RewriteRule ^newoperation$ src/view/mainindex.php?page=newOperation
+RewriteRule ^newoperation$ src/view/mainindex.php?page=calendar
 # Account(COMPTE) Managing Page
 RewriteRule ^comptes$ src/view/mainindex.php?page=gCompte
 # New Account(COMPTE) Page

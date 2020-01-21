@@ -15,7 +15,7 @@
 <!-- ./🔳 GLOBAL WRAPPER 🔳  -->
 
 <!-- jQuery -->
-<script src="<?= getProjectTemplate();?>plugins/jquery/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
 <script src="<?= getProjectTemplate();?>plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -24,6 +24,11 @@
 </script>
 <!-- Bootstrap 4 -->
 <script src="<?= getProjectTemplate();?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- bs-custom-file-input -->
+<script src="<?= getProjectTemplate();?>plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+<!-- DataTables -->
+<script src="<?= getProjectTemplate();?>plugins/datatables/jquery.dataTables.js"></script>
+<script src="<?= getProjectTemplate();?>plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
 <!-- ChartJS -->
 <script src="<?= getProjectTemplate();?>plugins/chart.js/Chart.min.js"></script>
 <!-- Sparkline -->
@@ -46,6 +51,8 @@
 <script src="<?= getProjectTemplate();?>plugins/pace-progress/pace.min.js"></script>
 <!-- GOOGLE MAPS API -->
 <script src="<?= getProjectTemplate();?>js/citymap.js"></script>
+<!-- CUSTOM JS -->
+<script src="<?= getProjectTemplate();?>js/mycustom.js"></script>
     <!--Load the API from the specified URL
     * The async attribute allows the browser to render the page while the API loads
     * The key parameter will contain your own API key (which is not needed for this tutorial)
@@ -60,5 +67,23 @@
 <script src="<?= getProjectTemplate();?>dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?= getProjectTemplate();?>dist/js/demo.js"></script>
+<!-- DATATABLE SCRIPT -->
+<script>
+  $(function () {
+    $("#listeVilleTable").DataTable();
+    /*$('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": true,
+    });*/
+  });
+  $.widget.bridge('uibutton', $.ui.button);
+  $(document).ready(function () {
+  bsCustomFileInput.init();
+});
+</script>
 </body>
 </html>

@@ -29,6 +29,9 @@
     <link rel="stylesheet" href="<?= getProjectTemplate();?>plugins/fontawesome-free/css/all.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="<?= getProjectTemplate();?>plugins/datatables-bs4/css/dataTables.bootstrap4.css">
     <!-- Tempusdominus Bbootstrap 4 -->
     <link rel="stylesheet" href="<?= getProjectTemplate();?>plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
     <!-- iCheck -->
@@ -50,7 +53,7 @@
     <style>
        /* Set the size of the div element that contains the map */
       #cityMap {
-        height: 600px;  /* The height is 400 pixels */
+        height: 400px;  /* The height is 400 pixels */
         width: 100%;  /* The width is the width of the web page */
        }
     </style>

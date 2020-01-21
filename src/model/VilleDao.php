@@ -26,4 +26,22 @@
 
         return $db->query($sql)->fetch();
     }
+
+    //==================| GET ALL CITY |==================
+    function getAllCity(){
+        $sql = "SELECT * FROM ville WHERE state=1";
+        
+        global $db;
+        
+        return $db->query($sql)->fetchAll();
+    }
+
+    //==================| GET ALL CITY |==================
+    function countAllCity(){
+        $sql = "SELECT COUNT(id) as nbCity from ville WHERE state=1";
+
+        global $db;
+
+        return $db->query($sql)->fetch();
+    }
 ?>
