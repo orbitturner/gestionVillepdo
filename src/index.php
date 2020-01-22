@@ -19,8 +19,8 @@
         |Author          : OrbitTurner                                        |
         |Official Name   : Mohamed GUEYE                                      |
         |Version         : v.0.1.1                                            |
-        |Created         : 18-DECEMBER-2019                                   |
-        |Last update     : 26-Sept-2019                                       |
+        |Created         : 01-JANUARY-2020                                    |
+        |Last update     : 22-Janv-2019                                       |
         |Partie          : LOGIN                                              | 
         |LANGAGE UTILISE : ANGLAIS - FRANCAIS                                 |
         +=====================================================================+
